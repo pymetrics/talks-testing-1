@@ -2,7 +2,7 @@
 presentation/_build/*
 
 # Demo app DB
-presentation/src/coinchecker/db.sqlite3
+presentation/src/coinbot/db.sqlite3
 
 # OSX things
 .DS_Store
