@@ -16,13 +16,17 @@ p {
     line-height: 1.8em;
 }
 
+.step {
+    width: 1000px;
+}
+
 pre {
     text-align: left;
     font-family: 'Roboto Mono', monospace;
     padding: 20px;
     margin: 10px 0 10px 0;
     border-radius: 5px;
-    box-shadow: 0 8px 12px -4px #5d5d5d
+    box-shadow: 0 8px 12px -4px #5d5d5d;
 }
 
 h1, h2, h3, h4 {
@@ -37,6 +41,9 @@ h1, h2, h3, h4 {
 tt {
     font-family: 'Roboto Mono';
     font-size: 1.2em;
+    padding: 1px 4px 1px 5px;
+    border: solid #aba1a3 1px;
+    border-radius: 10px;
 }
 
 ul {
@@ -92,6 +99,59 @@ div.header > p {
     left: 9px;
     top: -8px;
 }
+
+/* Table Styles */
+/* ty to http://divtable.com/table-styler/ */
+table.docutils {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.docutils td, table.docutils th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.docutils tbody td {
+    font-size: 13px;
+  }
+  table.docutils tbody td a {
+      font-weight: bold;
+  }
+  table.docutils tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.docutils thead {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.docutils thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table.docutils thead th:first-child {
+    border-left: none;
+  }
+
+  table.docutils tfoot td {
+    font-size: 14px;
+  }
+  table.docutils tfoot .links {
+    text-align: right;
+  }
+  table.docutils tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
 
 /* Pygments */
 .highlight .hll { background-color: #2f3640 }
