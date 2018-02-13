@@ -1,6 +1,12 @@
 # build artifacts
 presentation/_build/*
 
+# Demo app DB
+presentation/src/coinchecker/db.sqlite3
+
+# OSX things
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

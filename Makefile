@@ -12,4 +12,4 @@ clean:
 	rm -rf presentation/_build
 
 test:
-	cd presentation/src && python -m unittest
+	docker-compose run hovercraft bash -c "cd presentation/src/coinchecker && python manage.py test"
