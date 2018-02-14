@@ -13,20 +13,22 @@ p {
     margin-bottom: 2em;
     margin-top: 1em;
     text-align: left;
-    line-height: 1.8em;
+    line-height: 1.6em;
+    font-size: 1.3em;
 }
 
 .step {
     width: 1000px;
 }
 
-pre {
+pre.highlight {
     text-align: left;
     font-family: 'Roboto Mono', monospace;
     padding: 20px;
     margin: 10px 0 10px 0;
     border-radius: 5px;
     box-shadow: 0 8px 12px -4px #5d5d5d;
+    font-size: 1em;
 }
 
 h1, h2, h3, h4 {
@@ -115,6 +117,7 @@ table.docutils {
   }
   table.docutils tbody td {
     font-size: 13px;
+    padding: 12px 6px;
   }
   table.docutils tbody td a {
       font-weight: bold;

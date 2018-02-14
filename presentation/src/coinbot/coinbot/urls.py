@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from accounts.views import handle_command
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('command', handle_command, name='slash_command_post')
 ]

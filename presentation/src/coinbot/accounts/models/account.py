@@ -6,7 +6,8 @@ from coinbase import get_price
 
 class CoinAccount(models.Model):
     user = models.ForeignKey(
-        settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+        related_name='accounts')
     coin = models.CharField(max_length=3, default="BTC")
     balance = models.FloatField(default=0)
 
