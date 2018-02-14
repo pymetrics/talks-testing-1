@@ -336,12 +336,12 @@ Sweet.
 Let's do something interesting
 ======================================
 
-We can't write tests in a void, we need somethign to test! Let's say we're
+We can't write tests in a void, we need something to test! Let's say we're
 building a Slack bot that will tell us our crypto-coin balances, converted
 to fiat units.
 
 
-.. image:: images/goal.png
+.. image:: images/slack-gdax.png
 
 ----
 
